@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans';
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container span {
+  color: #1ed5c3;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../main/bgmain.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 7px;
+  margin-bottom: 8px;
+  padding-bottom: 0 15px;
+  text-shadow: 3px 2px 1px black;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  margin-top: 30px;
+  text-shadow: 3px 2px 1px black;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  width: 250px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #1ed5c3;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+
