@@ -113,7 +113,85 @@ a {
 /* BATAS MAIN SANDY */
 
 /* CSS BY SALPIA */
+.lesson-wrapper {
+	height: 600px;
+	padding-bottom: 80px;
+	background-color: #ECF2F4;
+	text-align: center;
+}
 
+img {
+	width: 80%;
+	height: 80%;
+	background-color: #8fe7ff;
+	border: 3px #8fe7ff double;
+	padding: 10px;
+	position: relative;
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.heading h2 {
+	font-weight: normal;
+	font-size: 45px;
+	letter-spacing: 7px;
+	margin-bottom: 15px;
+	padding-bottom: 0 15px;
+	text-shadow: 3px 2px 1px black;
+}
+
+.text-line span {
+	padding: 10px;
+	background: #ECF2F4;
+}
+
+.text-line center {
+	text-align: center;
+}
+
+.text-line {
+	background-color: #8fe7ff;
+	height: 3px;
+	vertical-align: middle;
+	line-height: 1px;
+}
+
+.heading p {
+	margin-bottom: 20px;
+	margin-top: 30px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+.lesson {
+	float: left;
+	width: 25%;
+}
+
+.lesson-icon {
+	position: relative;
+}
+
+.lesson-icon p {
+	position: absolute;
+	top: 90px;
+	width: 100%;
+	color: white;
+}
+
+.txt-contents {
+	width: 80%;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	letter-spacing: 1px;
+}
 
 /* BATAS MAIN SALPIA */
 
