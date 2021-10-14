@@ -3,6 +3,44 @@ body {
   font-family: 'Lucida Sans';
 }
 
+/* Header by safa */
+header{
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo{
+  width: 160px;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-right{
+  float:right;
+  padding:25px 20px;
+}
+
+.header-right a{
+  padding:0px 15px;
+  line-height: 25px;
+  color:white;
+  font-size:20px;
+  transition: all 1s;
+}
+
+.header-right a:hover{
+  color:#1ed5c3;
+  font-weight: bold;
+}
+
+/* batas safa */
+
 a {
   text-decoration: none;
 }
