@@ -41,6 +41,8 @@ header{
 
 /* batas safa */
 
+/* MAIN BY SANDY*/
+
 a {
   text-decoration: none;
 }
@@ -69,7 +71,8 @@ a {
   letter-spacing: 7px;
   margin-bottom: 8px;
   padding-bottom: 0 15px;
-  text-shadow: 2px 1px 1px black;
+  text-shadow: 2px 2px 1px black;
+  animation-duration: 2s;
 }
 
 .top-wrapper p {
@@ -80,6 +83,7 @@ a {
   text-shadow: 2px 1px 1px black;
   text-align: center;
   letter-spacing: 2px;
+  animation-duration: 2s;
 }
 
 .btn {
@@ -105,6 +109,15 @@ a {
 .btn-wrapper {
   margin: 20px 0;
 }
+
+/* BATAS MAIN SANDY */
+
+/* CSS BY SALPIA */
+
+
+/* BATAS MAIN SALPIA */
+
+
 /*CSS BY SAN*/
 body {
   background-color: #ecf2f4;
