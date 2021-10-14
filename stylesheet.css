@@ -63,5 +63,45 @@ a {
 .btn-wrapper {
   margin: 20px 0;
 }
+/*CSS BY SAN*/
+body {
+  background-color: #ecf2f4;
+  font-family: sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
 
+h1 {
+  font-family: open sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-top: 25px;
+  padding-top: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.body2 p {
+  font-family: "open sans light";
+  font-size: 25px;
+  color: black;
+  margin: 0%;
+  text-align: center;
+}
+hr {
+  top: 0;
+  left: 10%;
+  width: 90%;
+  height: 2px;
+  background: grey;
+  margin-top: 2%;
+}
+.img1 img {
+  float: left;
+  width: 190px;
+  height: 190px;
+  vertical-align: middle;
+  padding-left: 3%;
+  padding-top: 5%;
+  margin-left: 2%;
+}
 
