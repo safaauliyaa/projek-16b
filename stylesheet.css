@@ -19,6 +19,7 @@ header{
 
 .header-left{
   float:left;
+
 }
 
 .header-right{
@@ -60,6 +61,7 @@ a {
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(bgmain.jpg);
+  height: 600px;
   background-size: cover;
   color: white;
   text-align: center;
@@ -79,7 +81,7 @@ a {
   margin-bottom: 3px;
   font-size: 20px;
   font-weight: bolder;
-  margin-top: 30px;
+  margin-top: 80px;
   text-shadow: 2px 1px 1px black;
   text-align: center;
   letter-spacing: 2px;
@@ -120,7 +122,7 @@ a {
 	text-align: center;
 }
 
-img {
+img .lesson-icon{
 	width: 80%;
 	height: 80%;
 	background-color: #8fe7ff;
@@ -129,24 +131,33 @@ img {
 	position: relative;
 }
 
+img {
+	width: 70%;
+	height: 70%;
+	/* background-color: #8fe7ff; */
+	/* border: 3px #8fe7ff double; */
+	padding: 10px;
+	position: relative;
+}
+
 .heading {
 	padding-top: 60px;
 	padding-bottom: 30px;
 	color: #5f5d60;
+  /* letter-spacing: 2px; */
 }
 
 .heading h2 {
-	font-weight: normal;
-	font-size: 45px;
-	letter-spacing: 7px;
-	margin-bottom: 15px;
+	font-family: open sans-serif;
+  font-size: 40px;
+	margin-bottom: 30px;
 	padding-bottom: 0 15px;
-	text-shadow: 3px 2px 1px black;
 }
 
 .text-line span {
 	padding: 10px;
 	background: #ECF2F4;
+  color: #000;
 }
 
 .text-line center {
@@ -154,22 +165,28 @@ img {
 }
 
 .text-line {
-	background-color: #8fe7ff;
+	background-color: #1ed5c3;
 	height: 3px;
 	vertical-align: middle;
 	line-height: 1px;
 }
 
 .heading p {
-	margin-bottom: 20px;
-	margin-top: 30px;
+	/* margin-bottom: 20px;
 	text-align: center;
-	letter-spacing: 4px;
+	letter-spacing: 4px; */
+  padding-top: 10px;
+  font-family: "open sans light";
+  font-size: 20px;
+  color: black;
+  margin: 0%;
+  text-align: center;
 }
 
 .lesson {
 	float: left;
 	width: 25%;
+  margin-top: 30px;
 }
 
 .lesson-icon {
@@ -180,7 +197,6 @@ img {
 	position: absolute;
 	top: 90px;
 	width: 100%;
-	color: white;
 }
 
 .txt-contents {
@@ -204,6 +220,9 @@ body {
   padding: 0%;
 }
 
+.body2{
+  margin-top: 100px;
+}
 h1 {
   font-family: open sans-serif;
   font-size: 40px;
@@ -215,7 +234,7 @@ h1 {
 }
 .body2 p {
   font-family: "open sans light";
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   margin: 0%;
   text-align: center;
@@ -235,6 +254,7 @@ hr {
   padding-left: 5px;
   padding-top: 5%;
   margin-left: 2%;
+  background-image: none !important;
 }
 .img1 img {
   float: left;
@@ -244,6 +264,7 @@ hr {
   padding-left: 3%;
   padding-top: 5%;
   margin-left: 2%;
+  background-image: none !important;
 }
 
 .img2 img{
@@ -253,6 +274,7 @@ hr {
   padding-left: 0px;
   padding-top: 5%;
   margin-left: 2%;
+  background-image: none !important;
 }
 
 .img3 img{
@@ -263,6 +285,7 @@ hr {
   padding-right: 5px;
   padding-top: 5%;
   margin-left: 2%;
+  background-image: none !important;
 }
 
 /* footer by safa */
