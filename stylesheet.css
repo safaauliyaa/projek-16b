@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: 'Lucida Sans';
@@ -5,7 +6,7 @@ body {
 
 /* Header by safa */
 header{
-  height: 90px;
+  height: 80px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   top: 0;
@@ -14,7 +15,7 @@ header{
 }
 
 .logo{
-  width: 160px;
+  width: 140px;
 }
 
 .header-left{
@@ -23,14 +24,14 @@ header{
 
 .header-right{
   float:right;
-  padding:30px 20px;
+  padding: 25px 20px;
 }
 
 .header-right a{
-  padding:0px 15px;
+  padding:0px 18px;
   line-height: 25px;
   color:white;
-  font-size:20px;
+  font-size:15px;
   transition: all 1s;
 }
 
@@ -55,6 +56,7 @@ a {
 
 .container span {
   color: #1ed5c3;
+  font-style: italic;
 }
 
 .top-wrapper {
@@ -68,19 +70,24 @@ a {
 
 .top-wrapper h1 {
   color: white;
-  font-size: 60px;
+  font-size: 50px;
+  font-family: 'Libre Baskerville', serif;
   letter-spacing: 7px;
-  margin-bottom: 8px;
+  line-height: 20px;
+  margin-bottom: 20px;
   padding-bottom: 0 15px;
   text-shadow: 2px 2px 1px black;
   animation-duration: 2s;
 }
 
 .top-wrapper p {
-  margin-bottom: 3px;
-  font-size: 20px;
+  margin-bottom: 50px;
+  font-size: 15px;
   font-weight: bolder;
-  margin-top: 80px;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 100px;
+  margin-right: 180px;
+  margin-left: 180px;
   text-shadow: 2px 1px 1px black;
   text-align: center;
   letter-spacing: 2px;
@@ -92,15 +99,17 @@ a {
   color: white;
   display: inline-block;
   opacity: 0.8;
-  border-radius: 4px;
+  border-radius: 40px;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-  width: 250px;
-  margin-top: 20px;
+  width: 280px;
+  margin-top: 30px;
   letter-spacing: 1px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .btn:hover {
   opacity: 1;
+  color: black;
 }
 
 .signup {
@@ -148,7 +157,7 @@ img {
 
 .heading h2 {
 	font-family: open sans-serif;
-  font-size: 40px;
+  font-size: 30px;
 	margin-bottom: 30px;
 	padding-bottom: 0 15px;
 }
@@ -198,6 +207,11 @@ img {
 	width: 100%;
 }
 
+.lesson p{
+  font-family: 'Dosis', sans-serif;
+  font-weight: bolder;
+}
+
 .txt-contents {
 	width: 80%;
 	display: inline-block;
@@ -212,24 +226,29 @@ img {
 
 
 /*CSS BY SAN*/
-body {
+/* body {
   background-color: #ecf2f4;
   font-family: sans-serif;
   margin: 0%;
   padding: 0%;
-}
+} */
 
 .body2{
   margin-top: 100px;
 }
-h1 {
+.body2 h1 {
   font-family: open sans-serif;
-  font-size: 40px;
-  color: black;
+  font-size: 30px;
+	margin-bottom: 30px;
   margin-top: 25px;
-  padding-top: 25px;
-  margin-bottom: 20px;
+  margin-left: 175px;
+  margin-right: 175px;
+  padding-top: 0px;
+	padding-bottom: 0 15px;
+  font-style: italic;
+  color: black;
   text-align: center;
+  vertical-align: middle;
 }
 .body2 p {
   font-family: "open sans light";
@@ -238,22 +257,21 @@ h1 {
   margin: 0%;
   text-align: center;
 }
-hr {
+/* hr {
   top: 0;
   left: 10%;
   width: 90%;
   height: 2px;
   background: grey;
   margin-top: 2%;
-}
+} */
 .img0 img{
   float:left;
   width:270px;
   height:190px;
   padding-left: 5px;
-  padding-top: 5%;
+  padding-top: 3%;
   margin-left: 2%;
-  background-image: none !important;
 }
 .img1 img {
   float: left;
@@ -261,9 +279,18 @@ hr {
   height: 190px;
   vertical-align: middle;
   padding-left: 3%;
-  padding-top: 5%;
+  padding-top: 3%;
   margin-left: 2%;
-  background-image: none !important;
+}
+
+.imgpnim img {
+  float: left;
+  width: 190px;
+  height: 190px;
+  vertical-align: middle;
+  padding-left: 3%;
+  padding-top: 3%;
+  margin-left: 2%;
 }
 
 .img2 img{
@@ -271,9 +298,8 @@ hr {
   width:320px;
   height:200px;
   padding-left: 0px;
-  padding-top: 5%;
+  padding-top: 3%;
   margin-left: 2%;
-  background-image: none !important;
 }
 
 .img3 img{
@@ -282,9 +308,8 @@ hr {
   height:190px;
   padding-left: 2px;
   padding-right: 5px;
-  padding-top: 5%;
+  padding-top: 3%;
   margin-left: 2%;
-  background-image: none !important;
 }
 
 /* footer by safa */
