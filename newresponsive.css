@@ -72,4 +72,13 @@
     footer p {
         font-size: 15px
     }
+    
+        .nav-ico {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+    }
 }
