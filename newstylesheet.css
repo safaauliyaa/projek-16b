@@ -65,6 +65,19 @@ header {
     color:#1ed5c3;
 }
 
+.nav-ico {
+    display: none;
+}
+
+.menu-icon {
+    color: #1ed5c3;
+    float: right;
+    font-size: 35px;
+    padding: 21px 0;
+    display: none;
+    margin: 15px 10px 0px 0px;
+}
+
 /* bagian sandy */
 a {
     text-decoration: none;
