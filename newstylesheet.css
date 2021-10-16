@@ -30,6 +30,7 @@ header {
     height: 80px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.8;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -172,7 +173,7 @@ a {
 }
 
 .heading h2 {
-    font-weight: normal;
+    font-weight: bolder;
     font-family: open sans-serif;
 }
 
@@ -247,7 +248,11 @@ img {
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
-    background-color: #ECF2F4;
+    background-color: rgb(187, 243, 229);
+}
+
+.message-wrapper .text-line span{
+    background-color: rgb(187, 243, 229);
 }
 
 .message {
@@ -262,21 +267,6 @@ img {
     top: 7px;
     box-shadow: none;
 }
-
-/* bagian sopian */
-footer p {
-    color: black;
-    font-size: 16px;
-    text-align: center;
-}
-
-footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: #1ed5c3;
-}
-
-/* bagian beda */
 
 .oke {
     float: left;
@@ -293,3 +283,18 @@ footer {
     padding: 10px;
     position: relative;
 }
+
+/* bagian sopian */
+footer p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #1ed5c3;
+}
+
+
